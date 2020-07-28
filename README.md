@@ -1,30 +1,22 @@
+# Group Project
 
+Group project of an furniture shop realized on the basis of assigned tasks on Jira (Kanban methodology) under the supervision of an Project Manager. 
 
+## Technologies
 
-# WDP Projekt Zespołowy
+* React + Redux
+* Sass
 
-## Inicjacja projektu
+## How to run locally
 
-Po sklonowaniu projektu, zainstaluj wymagane paczki komendą `yarn install` (lub `npm install`).
+Clone project and run:
 
-Teraz możesz zacząć pracę, korzystając z przygotowanych taska `yarn start` (lub `npm start`).
+```bash
+npm install
+```
 
-Wszystkie potrzebne do pracy pliki źródłowe znajdują się w folderach `src` oraz `public`.
+Then use:
 
-## NPM Scripts
-
-Dostępne są 3 główne skrypty przyspieszające pracę:
-
-- `build`: na bazie plików z folderów `src` i `public` buduje project w folderze `build`
-- `start`: obserwuje zmiany w folderze `src` i uruchamia podgląd roboczy
-- `test`: uruchomienie testów jednostkowych
-- `refactor`: skrypt dokonuje automatycznego formatowania plików w folderze `src/`
-  zgodnie z przyjętą konwencją formatowania kodu, a także sprawdza błędy za pomocą ESLinta
-
-## Git Hooks
-
-Projekt korzysta z Git Hooks - możliwości uruchamiania skryptów w reakcji na wybrane zdarzenia programu Git.
-
-Za każdym razem gdy wykonasz komendę `git commit` zostaną uruchomione testy jednostkowe, formatowanie oraz lintowanie
-dla plików, które zostały wybrane za pomocą `git add` i mają być zapisane w commicie.
-
+```bash
+npm start
+```
